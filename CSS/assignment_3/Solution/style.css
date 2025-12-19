@@ -1,0 +1,116 @@
+/* إعدادات عامة */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #d8d8d8;
+    color: #333;
+}
+
+header {
+    background-color: #4a4545;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 50px;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.social-icons i {
+    margin-left: 15px;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.team-section {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.team-section h2 {
+    font-size: 32px;
+    margin-bottom: 5px;
+    border-bottom: 2px solid #000;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.team-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.team-card {
+    text-align: center;
+    width: 220px;
+}
+
+.team-card img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    filter: grayscale(20%);
+}
+
+.team-card h3 {
+    margin-top: 15px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.team-card p {
+    font-size: 14px;
+    color: #555;
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 10%;
+    margin-top: 50px;
+}
+
+footer h2 {
+    font-size: 28px;
+    color: #2c2121;
+}
+
+.contact-btn {
+    background-color: #d9534f;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
