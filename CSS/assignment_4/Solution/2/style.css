@@ -1,0 +1,73 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
+.stats {
+  padding: 90px 40px;
+  text-align: center;
+  color: #fff;
+  background:
+    linear-gradient(rgba(47, 79, 92, 0.85), rgba(47, 79, 92, 0.85)),
+    url("https://www.transparenttextures.com/patterns/triangles.png");
+  background-size: cover;
+}
+
+.top-text {
+  font-size: 14px;
+  letter-spacing: 1px;
+  opacity: 0.9;
+}
+
+.stats h2 {
+  font-family: 'Playfair Display', serif;
+  font-style: italic;
+  font-size: 36px;
+  margin: 12px 0 20px;
+}
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 40px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.stat-box p {
+  margin-top: 20px;
+  font-size: 16px;
+}
+
+.circle {
+  width: 160px;
+  height: 160px;
+  border: 2px solid rgba(255,255,255,0.8);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.circle span {
+  font-size: 42px;
+  font-weight: 600;
+}
+
+@media (max-width: 992px) {
+  .stats-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .stats-grid {
+    grid-template-columns: 1fr;
+  }
+}
