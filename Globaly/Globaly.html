@@ -3,180 +3,244 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Globaly</title>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width= , initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&amp;display=swap"
+        rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
     <link rel="stylesheet" href="style.css">
+    <title>Globaly</title>
 </head>
 
 <body>
-    <header class="header">
-        <div class="top-header">
-            <span class="phone">01150991970</span>
-
-            <ul class="social-icons">
-                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-google-plus-g"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-pinterest"></i></a></li>
-                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+    <header>
+        <div class="header-top">
+            <ul class="social-media">
+                <a href="#"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#"><i class="fa-brands fa-google-plus-g"></i></a>
+                <a href="#"><i class="fa-brands fa-pinterest"></i></a>
+                <a href="#"><i class="fa-brands fa-linkedin-in"></i></a>
             </ul>
 
-            <div class="search-box">
-                <input type="text" placeholder="Search...">
-                <i class="fa-solid fa-magnifying-glass"></i>
-            </div>
+            <input type="text" name="text" placeholder="search...">
         </div>
 
-        <div class="main-nav">
-            <img src="assets/logo.png" alt="Globaly Logo" class="logo">
-
-            <nav>
-                <ul class="nav-links">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#pages">Pages</a></li>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#services">Services</a></li>
-                    <li><a href="#cases">Cases</a></li>
-                    <li><a href="#news">News</a></li>
-                    <li><a href="#contact">Contact</a></li>
+        <nav class="navbar">
+            <img src="assets/logo.png" alt="logo">
+            <div>
+                <ul>
+                    <a href="#">
+                        <li>home</li>
+                    </a>
+                    <a href="#">
+                        <li>pages</li>
+                    </a>
+                    <a href="#">
+                        <li>about</li>
+                    </a>
+                    <a href="#">
+                        <li>services</li>
+                    </a>
+                    <a href="#">
+                        <li>cases</li>
+                    </a>
+                    <a href="#">
+                        <li>newes</li>
+                    </a>
+                    <a href="#">
+                        <li>contact</li>
+                    </a>
                 </ul>
-            </nav>
-
-            <div class="contact-info">
-                <i class="fa-solid fa-phone-flip"></i>
-                <span>0100000000</span>
-                <a href="mailto:aaaaa@gmail.com">aaaaa@gmail.com</a>
             </div>
-        </div>
 
+            <div class="contact">
+                <div>
+                    <i class="fa-solid fa-mobile"></i>
+                    <span>01000000000</span>
+                </div>
+                <a href="#"><span>aaaaa@gmail.com</span></a>
+            </div>
+        </nav>
     </header>
 
-    <section class="hero">
-        <div class="hero-content">
+    <main>
+        <section class="sec1">
             <h1>Full Cycle Business Management</h1>
-            <p>
-                Whether your company looks for a financial consulting, investment risks assessments
-                or an interim HR management, we’re ready to provide that for you.
+            <p>Whether your company looks for a financial consulting,<br> investment risks assessments or an interim HR
+                management, we’re <br> ready to provide that for you.</p>
+            <button class="button-blue">read more</button>
+        </section>
+
+        <section class="sec2">
+            <h3>Business Management</h3>
+            <h2>Services We Offer</h2>
+            <hr class="line">
+            <div class="div-services">
+                <div class="card-services">
+                    <i class="fa-solid fa-circle-check"></i>
+                    <h5>Interim Managers</h5>
+                    <hr>
+                    <p>Any scrutiny like a management issue will succumb to our control...</p>
+                </div>
+
+                <div class="card-services">
+                    <i class="fa-brands fa-fort-awesome"></i>
+                    <h5>Exit Planning</h5>
+                    <hr>
+                    <p>Exit planning with us is a worked out strategic roadmap...</p>
+                </div>
+
+                <div class="card-services">
+                    <i class="fa-solid fa-arrows-to-dot"></i>
+                    <h5>Market Research</h5>
+                    <hr>
+                    <p>It’s impossible to succeed in business these days...</p>
+                </div>
+
+                <div class="card-services">
+                    <i class="fa-solid fa-rotate-left"></i>
+                    <h5>Strategic Planning</h5>
+                    <hr>
+                    <p>Building a strategic development and expansion plan is vital...</p>
+                </div>
+            </div>
+            <button class="button-blue">read more</button>
+        </section>
+
+        <section class="sec3">
+            <h2>Case Studies & Success</h2>
+            <hr class="line">
+            <p>Any company level of expertise, trustworthiness or popularity can be easily checked when it comes to
+                proven cases…
+                <br><br>
+                We stockpiled hundreds of successful business consulting operations throughout the 25 years long history
+                we’re in this business. Here are the best examples of our diligent and efficient advice for small and
+                big companies.
             </p>
-            <button class="btn-primary">Read More</button>
-        </div>
-    </section>
-
-    <section class="services">
-        <h4>Business Management</h4>
-        <h2>Services We Offer</h2>
-        <span class="line"></span>
-
-        <div class="services-grid">
-            <div class="service-card">
-                <i class="fa-solid fa-circle-check"></i>
-                <h3>Interim Managers</h3>
-                <p>Any scrutiny like a management issue will succumb to our control...</p>
-            </div>
-
-            <div class="service-card">
-                <i class="fa-brands fa-fort-awesome"></i>
-                <h3>Exit Planning</h3>
-                <p>Exit planning with us is a worked out strategic roadmap...</p>
-            </div>
-
-            <div class="service-card">
-                <i class="fa-solid fa-arrows-to-dot"></i>
-                <h3>Market Research</h3>
-                <p>It’s impossible to succeed in business these days...</p>
-            </div>
-
-            <div class="service-card">
-                <i class="fa-solid fa-rotate-left"></i>
-                <h3>Strategic Planning</h3>
-                <p>Building a strategic development and expansion plan is vital...</p>
-            </div>
-        </div>
-
-        <button class="btn-primary">View More</button>
-    </section>
-
-    <section class="case-studies">
-        <h2>Case Studies & Success</h2>
-        <p>Any company level of expertise, trustworthiness or popularity...</p>
-        <button class="btn-outline">Our Cases</button>
-    </section>
-
-    <section class="business-tips">
-        <h4>Browse Our</h4>
-        <h2>Business Tips</h2>
-        <span class="line"></span>
-
-        <div class="tips-grid">
-            <div class="tip-card">
-                <img src="assets/business1.jpg" alt="">
-                <p><span class="date">07.05.2021</span> by <a href="#">admin</a></p>
-                <h4>How long before the exit you must be planning it?</h4>
-                <p>The ideal timing for planning an exit strategy...</p>
-            </div>
-
-            <div class="tip-card">
-                <img src="assets/business2.jpeg" alt="">
-                <p><span class="date">07.05.2021</span> by <a href="#">admin</a></p>
-                <h4>Is it viable now for IT companies to file an IPO?</h4>
-                <p>It's no dotcom-bubble burst today...</p>
-            </div>
-
-            <div class="tip-card">
-                <img src="assets/business3.jpg" alt="">
-                <p><span class="date">07.05.2021</span> by <a href="#">admin</a></p>
-                <h4>Bringing a new CFO at the time of crisis?</h4>
-                <p>There are many different approaches...</p>
-            </div>
-        </div>
-
-        <button class="btn-primary">View All</button>
-    </section>
-
-    <section class="stats">
-        <h2>You’ll Improve Your Performance!</h2>
-
-        <div class="stats-grid">
-            <div><span>56</span>
-                <p>Companies Consulted</p>
-            </div>
-            <div><span>47</span>
-                <p>Consultants</p>
-            </div>
-            <div><span>85</span>
-                <p>Awards Won</p>
-            </div>
-            <div><span>79</span>
-                <p>Satisfied Customers</p>
-            </div>
-        </div>
-    </section>
-
-    <section class="testimonials">
-        <h2>Client Testimonials</h2>
-    </section>
-
-    <section class="cta">
-        <h2>Your Revenue Continues To Grow</h2>
-        <button class="btn-outline">Learn More</button>
-    </section>
-
-    <footer class="footer">
-
-        <section class="consultation">
-            <h2>Request a Free Consultation</h2>
-            <input type="text" placeholder="Your Name">
-            <input type="email" placeholder="Your Email">
-            <button class="btn-primary">Submit</button>
+            <button class="button">Our Cases</button>
         </section>
 
-        <section class="bottom-footer">
+        <section class="sec4">
+            <h3>Browse Our</h3>
+            <h2>Business Tips</h2>
+            <hr class="line">
+            <div class="div-business">
+                <div class="card-business">
+                    <img src="assets/business1.jpg" alt="business1">
+                    <span><b>07.05.2021</b> by <a href="#">admin</a></span>
+                    <h5>How long before the exit you must be planning it?</h5>
+                    <p>The ideal timing for planning an exit strategy is at least 5-10 years beforehand. But
+                        unfortunately, that kind of diligent approach is not always applicable. So how does a CEO or an
+                        owner can perform a quicker exit?</p>
+                </div>
+
+                <div class="card-business">
+                    <img src="assets/business2.jpeg" alt="business2">
+                    <span><b>07.05.2021</b> by <a href="#">admin</a></span>
+                    <h5>Is it viable now for IT companies to file an IPO?</h5>
+                    <p>It's no dotcom-bubble burst today as it was at the verge of the centuries. But still, with so
+                        many different trends receiving investment funding, is it wise for a company to file an IPO at
+                        this time in the stock's history.</p>
+                </div>
+
+                <div class="card-business">
+                    <img src="assets/business3.jpg" alt="business3">
+                    <span><b>07.05.2021</b> by <a href="#">admin</a></span>
+                    <h5>Bringing a new CFO at the time of crisis?</h5>
+                    <p>here are many different approaches for saving a company during a period of a financial meltdown.
+                        Hiring a new Chief Financial Officer may seem like an obvious managerial solution from that
+                        list. But actually, is it the best decision?</p>
+                </div>
+            </div>
+            <button class="button-blue">View All</button>
+        </section>
+
+        <section class="sec5">
+            <h3>Thanks To Our Business Tips</h3>
+            <h2>You’ll Improve Your Performance!</h2>
+            <hr class="line">
+            <div class="div-business-tips">
+                <div class="num-card">
+                    <span class="num">56</span>
+                    <p>Companies Consulted</p>
+                </div>
+
+                <div class="num-card">
+                    <span class="num">47</span>
+                    <p>Consultants</p>
+                </div>
+
+                <div class="num-card">
+                    <span class="num">85</span>
+                    <p>Awards Won</p>
+                </div>
+
+                <div class="num-card">
+                    <span class="num">79</span>
+                    <p>Satisfied Customers</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec6">
+            <h3>Read Our</h3>
+            <h2>Client Testimonials</h2>
+            <hr class="line">
+            <div class="div-client">
+                <div class="client-card">
+                    <div class="img-client"><img src="assets/Vanessa.jpg" alt="Vanessa"></div>
+                    <div>
+                        <p>As an FMCG company, we always faced a tough competition in our field of market. It gotten
+                            only
+                            worse since the Great Recession hit us in 2008. But with efficient advice by this renown
+                            company.
+                            <br><br>
+                            <span>Vanessa Hayes</span>
+                        </p>
+
+                    </div>
+                </div>
+
+                <div class="client-card">
+                    <div class="img-client"><img src="assets/Richard.jpg" alt="Richard"></div>
+                    <div>
+                        <p>The investment company I own once signed up for Globaly consultations. That happened back in
+                            1993. Since then, we’ve been showing a steady year-by-year growth for 23 years long.
+                            <br><br>
+                            <span>Richard Lesberry</span>
+                        </p>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sec7">
+            <h3>As We're Managing The Aspects Of Your Business</h3>
+            <h2>Your Revenue Continues To Grow</h2>
+            <hr class="line">
+            <button class="button">Learn More</button>
+        </section>
+    </main>
+
+    <footer>
+        <section class="footer">
+            <h3>Request a Free</h3>
+            <h2>Consultation</h2>
+            <hr class="line">
+            <form>
+                <span>I Would Like To Discuss</span>
+                <input>
+                <input type="text" name="text" placeholder="Your Name">
+                <input type="text" name="text" placeholder="Your Email">
+            </form>
+            <button class="button-blue">Submit</button>
+        </section>
+        <div class="div-footer">
             <img src="assets/footer-logo.png" alt="footer-logo">
-            <p>©2026 Globaly. All rights reserved. | Ziad Abdulkarim</p>
-        </section>
-
+            <br>
+            <span>©2026 Globaly. All rights reserved | Ziad Abdulkarim</span>
+        </div>
     </footer>
 
 </body>
